@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c9c9c9;
+}
+
+table {
+    width: 450px;
+    height: 450px;
+    border: 1px solid #000;
+    margin: 10px auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-image: url(pic/derevo.jpg);
+}
+
+td {
+    border: 1px solid #000;
+    width: calc(100% / 8);
+    height: calc(100% / 8);
+}
+
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+    background-image: url(pic/derevo3.jpg);
+}
+
+td:hover {
+    outline: 3px solid #fff;
+    outline-offset: -6px;
+}
