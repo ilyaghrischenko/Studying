@@ -1,5 +1,8 @@
 # Studying
 This portfolio is intended to show my progress in programming.
+
+
+
 ![I am studying at ItStep academy on the software developer course](img/ItStep.png)
 
 
