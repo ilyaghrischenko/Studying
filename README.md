@@ -1,5 +1,5 @@
 # Studying
-This portfolio is intended to show my progress in programming.
+This repository is meant to showcase my progress in programming.
 
 ![Image](img/ItStep.png)
 
