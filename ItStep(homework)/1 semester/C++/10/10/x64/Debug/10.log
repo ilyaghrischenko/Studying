@@ -1,0 +1,8 @@
+﻿  10.cpp
+C:\Users\User\Desktop\10\10\10.cpp(76,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Desktop\10\10\10.cpp(77,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Desktop\10\10\10.cpp(79,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Desktop\10\10\10.cpp(80,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Desktop\10\10\10.cpp(87,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Desktop\10\10\10.cpp(88,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  10.vcxproj -> C:\Users\User\Desktop\10\x64\Debug\10.exe

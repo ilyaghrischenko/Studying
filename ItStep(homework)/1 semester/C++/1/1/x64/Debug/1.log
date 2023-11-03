@@ -1,0 +1,4 @@
+﻿  1.cpp
+C:\Users\Slr\Desktop\IT Step\1 semester\С++\repos\1\1\1.cpp(34,38): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\Slr\Desktop\IT Step\1 semester\С++\repos\1\1\1.cpp(35,56): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  1.vcxproj -> C:\Users\Slr\Desktop\IT Step\1 semester\С++\repos\1\x64\Debug\1.exe
