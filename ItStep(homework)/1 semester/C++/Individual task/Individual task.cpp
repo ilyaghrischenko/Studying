@@ -33,12 +33,18 @@ void DelArr(char** arr, int size)
 
 char* GetCurWord(char** arr, int size)
 {
-    char* cur_word = new char[80];
-    for (int i = 0; i < 80; ++i) { //ERROR
-        cur_word[i] = arr[rand() % size][i];
-    }
+    int rand_pos = rand() % size;
+    char* cur_word = new char[strlen(arr[rand_pos]) + 1];
+    strcpy(cur_word, arr[rand_pos]);
 
     return cur_word;
+}
+
+void Game(char** arr,int size)
+{
+    for (int i = 0; i < strlen(GetCurWord(arr, size)); ++i) {
+        cout << i + 1 << " ";
+    }
 }
 
 int main()
@@ -46,11 +52,13 @@ int main()
     setlocale(0, "");
     srand((unsigned)time(NULL));
 
-	int size = 42;
+    int size = 42;
     char** arr_words = ArrWords(size);
     
     char* cur_word = GetCurWord(arr_words, size);
     cout << cur_word << endl;
+
+    Game(arr_words, size);
 
     DelArr(arr_words, size);
     delete[] cur_word;
