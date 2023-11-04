@@ -10,7 +10,7 @@ private:
 public:
 	Human()
 	{
-		pib = new char[7] {"No PIB"};
+		strcpy(pib = new char[7], "No pib");
 		age = 0;
 	}
 	Human(const char* pib, int age):age(age)
@@ -60,19 +60,17 @@ public:
 		if (pib != nullptr) delete[] pib;
 
 		char s[512];
-		cout << "ПІБ: ";
+		cout << "ПiБ: ";
 		cin.getline(s, 512);
 		strcpy(pib = new char[strlen(s) + 1], s);
 
-		cout << "Вік: ";
+		cout << "Вiк: ";
 		cin >> age;
 		cin.ignore();
-
-		cout << endl;
 	}
 	inline void show() const
 	{
-		cout << "ПІБ: " << pib << " | Вік: " << age << endl;
+		cout << "ПiБ: " << pib << " | Вiк: " << age << endl;
 	}
 };
 
@@ -104,8 +102,7 @@ public:
 	{
 		if (people != nullptr) {
 			for (int i = 0; i < kilk_peoples; ++i) {
-				people[i]->~Human();
-				delete[] people[i];
+				delete people[i];
 			}
 			delete[] people;
 		}
@@ -120,8 +117,7 @@ public:
 	{
 		if (people != nullptr) {
 			for (int i = 0; i < kilk_peoples; ++i) {
-				people[i]->~Human();
-				delete[] people[i];
+				delete people[i];
 			}
 			delete[] people;
 		}
@@ -140,7 +136,7 @@ public:
 	{
 		return kilk_peoples;
 	}
-	//не зробив сеттер зі зміною розміру, тому що на парі з цим проблеми були
+	//не зробив сеттер зi змiною розмiру, тому що на парi з цим проблеми були
 
 	inline Human** GetPeople() const
 	{
@@ -150,8 +146,7 @@ public:
 	{
 		if (people != nullptr) {
 			for (int i = 0; i < kilk_peoples; ++i) {
-				people[i]->~Human(); 
-				delete[] people[i];
+				delete people[i];
 			}
 			delete[] people;
 		}
@@ -166,16 +161,15 @@ public:
 	{
 		if (people != nullptr) {
 			for (int i = 0; i < kilk_peoples; ++i) {
-				people[i]->~Human();
-				delete[] people[i];
+				delete people[i];
 			}
 			delete[] people;
 		}
 
-		cout << "Введіть номер квартири: ";
+		cout << "Введiть номер квартири: ";
 		cin >> number;
 
-		cout << "Введіть кількість людей: ";
+		cout << "Введiть кiлькiсть людей: ";
 		cin >> kilk_peoples;
 
 		cout << endl;
@@ -192,7 +186,7 @@ public:
 	}
 	void show() const
 	{
-		cout << "Номер квартири: " << number << " | Кількість людей: " << kilk_peoples << endl;
+		cout << "Номер квартири: " << number << " | Кiлькiсть людей: " << kilk_peoples << endl;
 		cout << "Масив людей:\n";
 		for (int i = 0; i < kilk_peoples; ++i) {
 			cout << i + 1 << ") ";
@@ -201,13 +195,158 @@ public:
 	}
 };
 
+class House {
+private:
+	char* adress;
+	int kilk_floors;
+	int kilk_apart;
+	Apartment** apartments;
+public:
+	House()
+	{
+		strcpy(adress = new char[10], "No adress");
+		kilk_floors = 0;
+		kilk_apart = 0;
+		apartments = nullptr;
+	}
+	House(const char* adress, int kilk_floors, int kilk_apart, Apartment** apartments) :kilk_floors(kilk_floors), kilk_apart(kilk_apart)
+	{
+		strcpy(this->adress = new char[strlen(adress) + 1], adress);
+		this->apartments = new Apartment* [kilk_apart];
+		this->apartments = apartments;
+	}
+	House(const House& x)
+	{
+		strcpy(adress = new char[strlen(x.adress) + 1], x.adress);
+		kilk_floors = x.kilk_floors;
+		kilk_apart = x.kilk_apart;
+		apartments = new Apartment* [x.kilk_apart];
+	}
+	House& operator=(const House& x)
+	{
+		if (apartments != nullptr) {
+			for (int i = 0; i < kilk_apart; ++i) {
+				delete apartments[i];
+			}
+			delete[] apartments;
+		}
+		if (adress != nullptr) delete[] adress;
+		
+		strcpy(adress = new char[strlen(x.adress) + 1], x.adress);
+		kilk_floors = x.kilk_floors;
+		kilk_apart = x.kilk_apart;
+		apartments = new Apartment* [x.kilk_apart];
+
+		return *this;
+	}
+	~House()
+	{
+		if (apartments != nullptr) {
+			for (int i = 0; i < kilk_apart; ++i) {
+				delete apartments[i];
+			}
+			delete[] apartments;
+		}
+		if (adress != nullptr) delete[] adress;
+	}
+
+	inline char* GetAdress() const
+	{
+		return adress;
+	}
+	inline void SetAdress(const char* adress)
+	{
+		if (this->adress != nullptr) delete[] this->adress;
+		strcpy(this->adress = new char[strlen(adress) + 1], adress);
+	}
+
+	inline int GetKilkFloors() const
+	{
+		return kilk_floors;
+	}
+	inline void SetKilkFloors(int kilk_floors)
+	{
+		this->kilk_floors = kilk_floors;
+	}
+
+	inline int GetKilkApart() const
+	{
+		return kilk_apart;
+	}
+	//
+
+	inline Apartment** GetApartments() const
+	{
+		return apartments;
+	}
+	inline void SetApartments(Apartment** arr)
+	{
+		if (apartments != nullptr) {
+			for (int i = 0; i < kilk_apart; ++i) {
+				delete apartments[i];
+			}
+			delete[] apartments;
+		}
+		apartments = new Apartment* [kilk_apart];
+		for (int i = 0; i < kilk_apart; ++i) {
+			cout << i + 1 << " квартира.\n";
+			apartments[i] = new Apartment;
+			apartments[i]->input();
+		}
+	}
+
+	inline void input()
+	{
+		if (apartments != nullptr) {
+			for (int i = 0; i < kilk_apart; ++i) {
+				delete apartments[i];
+			}
+			delete[] apartments;
+		}
+		if (adress != nullptr) delete[] adress;
+
+		char s[512];
+		cout << "Адреса: ";
+		cin.getline(s, 512);
+		strcpy(adress = new char[strlen(s) + 1], s);
+
+		cout << "Кiлькiсть поверхiв: ";
+		cin >> kilk_floors;
+
+		cout << "Кiлькiсть квартир: ";
+		cin >> kilk_apart;
+
+		cin.ignore();
+		cout << endl;
+
+		apartments = new Apartment* [kilk_apart];
+		for (int i = 0; i < kilk_apart; ++i) {
+			cout << "--------------------------------------\n";
+			cout << i + 1 << " квартира.\n";
+			apartments[i] = new Apartment;
+			apartments[i]->input();
+			cout << "--------------------------------------\n\n";
+		}
+	}
+	inline void show() const
+	{
+		cout << "Адреса: " << adress << " | Поверхiв: " << kilk_floors << " | Пiд'їздiв: " << kilk_apart << endl;
+		cout << "Масив квартир:\n";
+		for (int i = 0; i < kilk_apart; ++i) {
+			cout << i + 1 << ".\n";
+			apartments[i]->show();
+			cout << endl;
+		}
+	}
+};
+
 int main()
 {
 	setlocale(0, "");
 
-	Apartment kvart;
-	kvart.input();
-	kvart.show();
+	House dom;
+	dom.input();
+	dom.show();
 
 	cout << endl;
 	system("pause");
