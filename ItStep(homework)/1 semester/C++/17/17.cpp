@@ -17,12 +17,12 @@ public:
 	{
 		strcpy(this->pib = new char[strlen(pib) + 1], pib);
 	}
-	Human(Human& x)
+	Human(const Human& x)
 	{
 		strcpy(pib = new char[strlen(x.pib) + 1], x.pib);
 		age = x.age;
 	}
-	Human& operator=(Human& x)
+	Human& operator=(const Human& x)
 	{
 		if (pib != nullptr) delete[] pib;
 		pib = new char[strlen(x.pib) + 1];
@@ -42,7 +42,8 @@ public:
 	}
 	inline void SetPib(const char* pib)
 	{
-		strcpy(this->pib, pib);
+		if (this->pib != nullptr) delete[] this->pib;
+		strcpy(this->pib = new char[strlen(pib) + 1], pib);
 	}
 
 	inline int GetAge() const
@@ -56,6 +57,8 @@ public:
 
 	inline void input()
 	{
+		if (pib != nullptr) delete[] pib;
+
 		char s[512];
 		cout << "ПІБ: ";
 		cin.getline(s, 512);
@@ -90,17 +93,20 @@ public:
 		this->people = new Human* [kilk_peoples];
 		this->people = people;
 	}
-	Apartment(Apartment& x)
+	Apartment(const Apartment& x)
 	{
 		number = x.number;
 		kilk_peoples = x.kilk_peoples;
 		people = new Human* [x.kilk_peoples];
 		people = x.people;
 	}
-	Apartment& operator=(Apartment& x)
+	Apartment& operator=(const Apartment& x)
 	{
 		if (people != nullptr) {
-			for (int i = 0; i < kilk_peoples; ++i) delete[] people[i];
+			for (int i = 0; i < kilk_peoples; ++i) {
+				people[i]->~Human();
+				delete[] people[i];
+			}
 			delete[] people;
 		}
 		people = new Human* [x.kilk_peoples];
@@ -143,7 +149,10 @@ public:
 	void SetPeople()
 	{
 		if (people != nullptr) {
-			for (int i = 0; i < kilk_peoples; ++i) delete[] people[i];
+			for (int i = 0; i < kilk_peoples; ++i) {
+				people[i]->~Human(); 
+				delete[] people[i];
+			}
 			delete[] people;
 		}
 		people = new Human* [kilk_peoples];
@@ -156,7 +165,10 @@ public:
 	void input()
 	{
 		if (people != nullptr) {
-			for (int i = 0; i < kilk_peoples; ++i) delete[] people[i];
+			for (int i = 0; i < kilk_peoples; ++i) {
+				people[i]->~Human();
+				delete[] people[i];
+			}
 			delete[] people;
 		}
 
@@ -182,7 +194,10 @@ public:
 	{
 		cout << "Номер квартири: " << number << " | Кількість людей: " << kilk_peoples << endl;
 		cout << "Масив людей:\n";
-		for (int i = 0; i < kilk_peoples; ++i) people[i]->show();
+		for (int i = 0; i < kilk_peoples; ++i) {
+			cout << i + 1 << ") ";
+			people[i]->show();
+		}
 	}
 };
 
