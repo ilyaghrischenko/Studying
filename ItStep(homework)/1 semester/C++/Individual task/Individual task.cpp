@@ -42,9 +42,30 @@ char* GetCurWord(char** arr, int size)
 
 void Game(char** arr,int size)
 {
-    for (int i = 0; i < strlen(GetCurWord(arr, size)); ++i) {
-        cout << i + 1 << " ";
+    char* cur_word = GetCurWord(arr, size);
+
+    char word[512];
+    for (int i = 0; i < strlen(cur_word); ++i) word[i] = '_ ';
+
+    cout << "Слово: ";
+    for (int i = 0; i < strlen(cur_word); ++i) cout << word[i];
+    cout << endl;
+
+    char symbol;
+    cout << "Введіть символ: ";
+    cin >> symbol;
+
+    bool isFind = false;
+    int i = 0;
+    for (i; i < strlen(cur_word); ++i) {
+        if (cur_word[i] == symbol) {
+            isFind = true;
+            break;
+        }
     }
+    if(isFind)
+
+    delete[] cur_word;
 }
 
 int main()
@@ -54,12 +75,8 @@ int main()
 
     int size = 42;
     char** arr_words = ArrWords(size);
-    
-    char* cur_word = GetCurWord(arr_words, size);
-    cout << cur_word << endl;
 
     Game(arr_words, size);
 
     DelArr(arr_words, size);
-    delete[] cur_word;
 }
