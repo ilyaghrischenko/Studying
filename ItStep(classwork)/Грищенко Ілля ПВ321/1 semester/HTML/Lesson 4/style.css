@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    background-color: lightblue;
+}
+
+ul {
+    width: 800px;
+    background-color: green;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+li {
+    margin: 10px;
+    float: left;
+    background-color: yellow;
+    height: calc(100% - 100px);
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    padding: 80px;
+}

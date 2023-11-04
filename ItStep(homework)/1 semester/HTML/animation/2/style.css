@@ -1,0 +1,63 @@
+body {
+    margin: 10px auto;
+    width: 1200px;
+}
+
+.main {
+    overflow: hidden;
+    position: relative;
+}
+
+.left, .right {
+    width: calc(50% - 9.8px);
+    height: 200px;
+    border: 5px solid rgb(152, 51, 211);
+    background-color: rgb(173, 96, 57);
+    transform: perspective(1000px) rotateY(0deg);
+    transform-origin: 0% 50%;
+    transition: transform 1s ease;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.text {
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+@keyframes openDoors1 {
+    to {
+        transform: perspective(1000px) rotateY(90deg);
+    }
+}
+
+@keyframes openDoors2 {
+    to {
+        transform: perspective(1000px) rotateY(90deg); 
+    }
+}
+
+.main:hover .left {
+    animation: openDoors1 2s 1 linear forwards;
+}
+
+.main:hover .right {
+    animation: openDoors2 2s 1 linear forwards;
+}
+
+.main:hover .text {
+    opacity: 1;
+}

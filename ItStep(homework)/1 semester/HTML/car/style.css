@@ -1,0 +1,68 @@
+div {
+    height: 268px;
+    width: 1035px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.banner {
+    background-image: url(images/sky_03.png);
+    background-repeat: no-repeat;
+}
+
+.cloud {
+    background-image: url(images/cloud_03.png);
+    background-repeat: repeat-x;
+}
+
+.horizont {
+    background-image: url(images/horizont_03.png);
+    background-repeat: repeat-x;
+}
+
+.hill {
+    background-image: url(images/hill_03.png);
+    background-repeat: repeat-x;
+    position: relative;
+}
+
+.grass, .grass2 {
+    background-image: url(images/grass_03.png);
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+.auto {
+    position: absolute;
+    width: 234px;
+    height: 137px;
+    bottom: 0;
+    left: 400px;
+}
+
+.trailer {
+    background-image: url(images/trailer_03.png);
+    background-repeat: no-repeat;
+    width: 234px;
+    height: 114px;
+
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+
+[class*="whell"] {
+    background-image: url(images/wheel_03.png);
+    background-repeat: no-repeat;
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    bottom: 0;
+}
+
+.whell1 {
+    left: 17px;
+}
+
+.whell2 {
+    left: 146px;
+}
