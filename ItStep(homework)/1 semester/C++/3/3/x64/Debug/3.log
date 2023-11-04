@@ -1,6 +1,0 @@
-﻿  3.cpp
-C:\Users\User\Desktop\3\3\3.cpp(242,22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\User\Desktop\3\3\3.cpp(246,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\User\Desktop\3\3\3.cpp(296,75): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\User\Desktop\3\3\3.cpp(297,81): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-  3.vcxproj -> C:\Users\User\Desktop\3\x64\Debug\3.exe
