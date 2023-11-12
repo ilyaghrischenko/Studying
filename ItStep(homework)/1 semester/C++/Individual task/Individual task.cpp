@@ -1,14 +1,16 @@
 #pragma warning(disable:4996)
 #include <iostream>
 #include <cstring>
-#include <time.h>
+#include <ctime>
+#define MAX_LIVES 7
 using namespace std;
 
-//Шибениця
+
+// Шибениця
 
 char** ArrWords(int size)
 {
-    const char* words[] = { "apple", "book", "chair", "dog", "fish", "globe", "hat", "ice", "kite", "lamp",
+    const char* words[] = { "apple", "book", "chair", "dog", "fish", "globe", "hat", "ice", "kite", "lamp", //список усіх слів
         "moon", "note", "owl", "quilt", "shoes", "tree", "umbrella", "watch", "banana", "carrot",
         "shoes", "pencil", "snail", "robot", "zipper", "butterfly", "crown", "feather", "hamburger",
         "igloo", "juice", "magnet", "pancake", "raccoon", "velvet", "backpack", "candle", "earrings",
@@ -23,7 +25,7 @@ char** ArrWords(int size)
     return arr;
 }
 
-void DelArr(char** arr, int size)
+void DelArr(char** arr, int size) //видалення 2-вимірного масиву
 {
     for (int i = 0; i < size; ++i) {
         delete[] arr[i];
@@ -31,7 +33,7 @@ void DelArr(char** arr, int size)
     delete[] arr;
 }
 
-char* GetCurWord(char** arr, int size)
+char* GetCurWord(char** arr, int size) //функція, яка повертає рандомне слово з усього списку
 {
     int rand_pos = rand() % size;
     char* cur_word = new char[strlen(arr[rand_pos]) + 1];
@@ -40,30 +42,112 @@ char* GetCurWord(char** arr, int size)
     return cur_word;
 }
 
-void Game(char** arr,int size)
+void PrintHangman(int lives) //фунуція, яка дозволяє виводити шибеницю, в залежності від к-сті помилок
 {
-    char* cur_word = GetCurWord(arr, size);
+    const char* hangman_stages[] = {
+        "  +---+\n"
+        "  |   |\n"
+        "      |\n"
+        "      |\n"
+        "      |\n"
+        "      |\n"
+        "=========",
+        "  +---+\n"
+        "  |   |\n"
+        "  O   |\n"
+        "      |\n"
+        "      |\n"
+        "      |\n"
+        "=========",
+        "  +---+\n"
+        "  |   |\n"
+        "  O   |\n"
+        "  |   |\n"
+        "      |\n"
+        "      |\n"
+        "=========",
+        "  +---+\n"
+        "  |   |\n"
+        "  O   |\n"
+        " /|   |\n"
+        "      |\n"
+        "      |\n"
+        "=========",
+        "  +---+\n"
+        "  |   |\n"
+        "  O   |\n"
+        " /|\\  |\n"
+        "      |\n"
+        "      |\n"
+        "=========",
+        "  +---+\n"
+        "  |   |\n"
+        "  O   |\n"
+        " /|\\  |\n"
+        " /    |\n"
+        "      |\n"
+        "=========",
+        "  +---+\n"
+        "  |   |\n"
+        "  O   |\n"
+        " /|\\  |\n"
+        " / \\  |\n"
+        "      |\n"
+        "========="
+    };
 
-    char word[512];
-    for (int i = 0; i < strlen(cur_word); ++i) word[i] = '_ ';
+    cout << hangman_stages[MAX_LIVES - lives] << endl;
+}
 
-    cout << "Слово: ";
-    for (int i = 0; i < strlen(cur_word); ++i) cout << word[i];
-    cout << endl;
+void Game(char** arr, int size) //функція, яка відповідає за саму гру
+{
+    int lives = MAX_LIVES;
+    char* cur_word = GetCurWord(arr, size); //змінна зберігає рандомне слово
 
-    char symbol;
-    cout << "Введіть символ: ";
-    cin >> symbol;
+    char word[512]{ "" };
+    for (int i = 0; i < strlen(cur_word); ++i) word[i] = '_';
 
-    bool isFind = false;
-    int i = 0;
-    for (i; i < strlen(cur_word); ++i) {
-        if (cur_word[i] == symbol) {
-            isFind = true;
+    while (lives > 0) {
+        cout << "Слово: ";
+        for (int i = 0; i < strlen(cur_word); ++i) cout << word[i] << ' ';
+        cout << endl;
+
+        char symbol;
+        cout << "Введіть символ: ";
+        cin >> symbol;
+
+        cout << endl;
+
+        bool isFind = false;
+        for (int i = 0; i < strlen(cur_word); ++i) { //перевірка на присутність введенного символу у слові
+            if (cur_word[i] == symbol) {
+                isFind = true;
+                word[i] = symbol;
+            }
+        }
+
+        if (!isFind) {
+            lives--;
+            PrintHangman(lives);
+        }
+
+        bool wordGuessed = true;
+        for (int i = 0; i < strlen(cur_word); ++i) {
+            if (word[i] == '_') {
+                wordGuessed = false;
+                break;
+            }
+        }
+
+        if (wordGuessed) {
+            cout << "Ви виграли! Загадане слово: " << cur_word << endl;
             break;
         }
     }
-    if(isFind)
+
+    if (lives == 0) {
+        cout << "Ви програли. Загадане слово: " << cur_word << endl;
+    }
 
     delete[] cur_word;
 }
@@ -79,4 +163,7 @@ int main()
     Game(arr_words, size);
 
     DelArr(arr_words, size);
+
+    cout << endl;
+    system("pause");
 }
