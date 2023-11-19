@@ -2,6 +2,7 @@
 using namespace std;
 
 //task 1
+/*
 class Fraction {
 private:
 	int ch;
@@ -123,6 +124,7 @@ bool operator>(const Fraction& x, const Fraction& y)
 	if (x != y) return (x.ch / x.zn > y.ch / y.zn);
 	else return false;
 }
+*/
 
 //task 2
 class Flat {
@@ -181,14 +183,72 @@ public:
 	{
 		cout << "К-сть: " << kilk << " | Площа: " << square << " | Ціна: " << price << endl << endl;
 	}
+
+	friend bool operator==(const Flat&, const Flat&);
+	friend bool operator>(const Flat&, const Flat&);
+	friend bool operator<=(const Flat&, const Flat&);
+	Flat& operator++()
+	{
+		++kilk;
+		return *this;
+	}
+	Flat& operator--()
+	{
+		--kilk;
+		return *this;
+	}
 };
+
+bool operator==(const Flat& x, const Flat& y)
+{
+	return (x.square == y.square);
+}
+bool operator>(const Flat& x, const Flat& y)
+{
+	return (x.price > y.price);
+}
+bool operator<=(const Flat& x, const Flat& y)
+{
+	return (x.price <= y.price);
+}
 
 int main()
 {
 	setlocale(0, "");
 
+	Flat a(2, 3, 4);
+	Flat b(3, 5, 6);
+	cout << "Об'єкт а:\n";
+	a.show();
+	cout << "Об'єкт b:\n";
+	b.show();
+	system("pause");
+	system("cls");
 
+	if (a == b) cout << "Площі рівні\n";
+	else cout << "Площі не рівні\n";
+	system("pause");
+	system("cls");
 
-	cout << endl;
+	++a;
+	++b;
+	cout << "Об'єкт а:\n";
+	a.show();
+	cout << "Об'єкт b:\n";
+	b.show();
+	system("pause");
+	system("cls");
+
+	if (a > b) cout << "Ціна об'єкта а > b\n";
+	else cout << "Ціна b > a\n";
+	system("pause");
+	system("cls");
+
+	if (a <= b) cout << "Ціна а <= b\n";
+	else cout << "Ціна b > a\n";
+	system("pause");
+	system("cls");
+	
+	cout << "\nЗавершення програми...\n";
 	system("pause");
 }
