@@ -1,0 +1,4 @@
+﻿  20.cpp
+C:\github\Studying\ItStep(homework)\1 semester\C++\20\20.cpp(169,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\github\Studying\ItStep(homework)\1 semester\C++\20\20.cpp(243,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  20.vcxproj -> C:\github\Studying\ItStep(homework)\1 semester\C++\20\x64\Debug\20.exe
