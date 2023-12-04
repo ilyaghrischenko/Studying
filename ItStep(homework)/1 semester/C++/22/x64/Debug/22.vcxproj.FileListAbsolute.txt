@@ -1,0 +1,2 @@
+C:\github\Studying\ItStep(homework)\1 semester\C++\22\x64\Debug\22.exe
+C:\github\Studying\ItStep(homework)\1 semester\C++\22 (клас стрінг)\x64\Debug\22.exe

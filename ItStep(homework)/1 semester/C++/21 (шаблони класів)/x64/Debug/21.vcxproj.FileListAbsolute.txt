@@ -1,0 +1,2 @@
+C:\github\Studying\ItStep(homework)\1 semester\C++\21\x64\Debug\21.exe
+C:\github\Studying\ItStep(homework)\1 semester\C++\21 (шаблони класів)\x64\Debug\21.exe
