@@ -171,15 +171,11 @@ public:
 		Matrix<T> result;
 		result.rows = rows;
 		result.k_el = x.k_el;
-		Init(result.rows, result.k_el);
-
-		result.arr = new T * [result.rows];
-		for (int i = 0; i < result.rows; ++i) {
-			result.arr[i] = new T[result.k_el]{ T() };
-		}
+		result.Init(result.rows, result.k_el);
 
 		for (int i = 0; i < rows; ++i) {
 			for (int j = 0; j < x.k_el; ++j) {
+				result.arr[i][j] = T();
 				for (int k = 0; k < k_el; ++k) {
 					result.arr[i][j] += arr[i][k] * x.arr[k][j];
 				}
@@ -190,19 +186,28 @@ public:
 	}
 	Matrix<T> operator/(const Matrix<T>& x)
 	{
-		if (arr == nullptr || x.arr == nullptr) return *this;
-		if (k_el != x.k_el) return;
+		if (arr == nullptr || x.arr == nullptr || k_el != x.rows) {
+			// Return a default-constructed matrix or handle the error appropriately
+			return Matrix<T>();
+		}
+
+		Matrix<T> result;
+		result.rows = rows;
+		result.k_el = x.k_el;
+		result.Init(result.rows, result.k_el);
 
 		for (int i = 0; i < rows; ++i) {
-			for (int j = 0; j < x.rows; ++j) {
+			for (int j = 0; j < x.k_el; ++j) {
+				result.arr[i][j] = T(); // Clear memory before using
 				for (int k = 0; k < k_el; ++k) {
-					arr[i][j] += arr[i][k] * x.arr[j][k];
+					result.arr[i][j] += arr[i][k] * x.arr[k][j];
 				}
 			}
 		}
 
-		return *this;
+		return result;
 	}
+
 };
 
 int main()
@@ -225,7 +230,7 @@ int main()
 
 	system("pause");
 
-	a = c + b;
+	a = c * b;
 	a.show("New A");
 
 	cout << endl;
