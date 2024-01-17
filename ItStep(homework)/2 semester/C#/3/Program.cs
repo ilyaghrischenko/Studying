@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Security.Cryptography.X509Certificates;
+using System.Text;
 
 namespace _3
 {
@@ -9,6 +10,7 @@ namespace _3
             Console.Write("Enter a " + sen + ": ");
             text = Console.ReadLine();
             if (text == string.Empty) text = "";
+            Console.WriteLine();
         }
 
         //task 1
@@ -26,7 +28,20 @@ namespace _3
             }
 
             text = new string(charArray);
-            Console.WriteLine(text);
+        }
+        static public void DeCrypt(ref string text, int key)
+        {
+            char[] charArray = text.ToCharArray();
+
+            for (int i = 0; i < charArray.Length; i++)
+            {
+                char currentChar = charArray[i];
+
+                if (char.IsUpper(currentChar)) charArray[i] = (char)((currentChar - 'A' + 26 - key) % 26 + 'A');
+                else charArray[i] = (char)((currentChar - 'a' + 26 - key) % 26 + 'a');
+            }
+
+            text = new string(charArray);
         }
         */
 
@@ -112,25 +127,46 @@ namespace _3
         */
 
         //task 5
+        /*
         static public void ChangeInappropriateWords(ref string text, string words)
         {
-            string[] inap_words = words.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-            string[] my_text = text.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            string[] inap_words = words.Split(", ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+            string[] my_text = text.Split(" .,!?:;".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+
+            string[] copy_text = new string[my_text.Length];
+            my_text.CopyTo(copy_text, 0);
 
             for (int i = 0; i < my_text.Length; ++i)
             {
                 for (int j = 0; j < inap_words.Length; ++j)
                 {
-                    if (my_text[i] == inap_words[j])
+                    if (string.Equals(my_text[i], inap_words[j], StringComparison.OrdinalIgnoreCase))
                     {
-                        for (int k = 0; k < my_text[i].Length; ++k)
-                        {
-
-                        }
+                        string new_word = new string('*', my_text[i].Length);
+                        my_text[i] = new_word;
                     }
                 }
             }
+            text = string.Join(' ', my_text);
+
+            ChangeStatistics(inap_words, copy_text);
+            Console.WriteLine();
         }
+        static private void ChangeStatistics(string[] inap_words, string[] my_text)
+        {
+            Console.WriteLine();
+            Console.WriteLine("Statistics:");
+            foreach (var inp_word in inap_words)
+            {
+                int kilk = 0;
+                foreach (var text_word in my_text)
+                {
+                    if (string.Equals(inp_word, text_word, StringComparison.OrdinalIgnoreCase)) ++kilk;
+                }
+                if (kilk != 0) Console.WriteLine($"{kilk} replace, word: {inp_word}");
+            }
+        }
+        */
 
         static void Main(string[] args)
         {
@@ -141,13 +177,15 @@ namespace _3
 
             Console.WriteLine($"Start text: {text}");
             CeasersChipher(ref text, 3);
-            Console.WriteLine($"End text: {text}");
+            Console.WriteLine($"Encrypt text: {text}");
+            DeCrypt(ref text, 3);
+            Console.WriteLine($"Decrypt text: {text}");
             */
 
             //task 2
             /*
             string text;
-            CreateString(out text, "math expression");
+            CreateString(out text, "math expression(format: 2 + 2)");
 
             int rez = CalcText(text);
             Console.WriteLine($"Text {text} result: {rez}");
@@ -171,7 +209,16 @@ namespace _3
             */
 
             //task 5
+            /*
+            string text;
+            CreateString(out text, "sentence");
 
+            string words;
+            CreateString(out words, "inappropriate words");
+
+            ChangeInappropriateWords(ref text, words);
+            Console.WriteLine($"New text:\n{text}");
+            */
 
             Console.WriteLine();
             Console.ReadKey();
