@@ -1,0 +1,14 @@
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\bin\Debug\net6.0\Lesson_1.exe
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\bin\Debug\net6.0\Lesson_1.deps.json
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\bin\Debug\net6.0\Lesson_1.runtimeconfig.json
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\bin\Debug\net6.0\Lesson_1.dll
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\bin\Debug\net6.0\Lesson_1.pdb
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\obj\Debug\net6.0\Lesson_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\obj\Debug\net6.0\Lesson_1.AssemblyInfoInputs.cache
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\obj\Debug\net6.0\Lesson_1.AssemblyInfo.cs
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\obj\Debug\net6.0\Lesson_1.csproj.CoreCompileInputs.cache
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\obj\Debug\net6.0\Lesson_1.dll
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\obj\Debug\net6.0\refint\Lesson_1.dll
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\obj\Debug\net6.0\Lesson_1.pdb
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\obj\Debug\net6.0\Lesson_1.genruntimeconfig.cache
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_1\obj\Debug\net6.0\ref\Lesson_1.dll

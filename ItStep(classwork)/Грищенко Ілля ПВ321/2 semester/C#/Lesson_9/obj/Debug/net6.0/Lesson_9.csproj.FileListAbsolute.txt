@@ -1,0 +1,14 @@
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\obj\Debug\net6.0\Lesson_9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\obj\Debug\net6.0\Lesson_9.AssemblyInfoInputs.cache
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\obj\Debug\net6.0\Lesson_9.AssemblyInfo.cs
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\obj\Debug\net6.0\Lesson_9.csproj.CoreCompileInputs.cache
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\bin\Debug\net6.0\Lesson_9.exe
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\bin\Debug\net6.0\Lesson_9.deps.json
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\bin\Debug\net6.0\Lesson_9.runtimeconfig.json
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\bin\Debug\net6.0\Lesson_9.dll
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\bin\Debug\net6.0\Lesson_9.pdb
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\obj\Debug\net6.0\Lesson_9.dll
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\obj\Debug\net6.0\refint\Lesson_9.dll
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\obj\Debug\net6.0\Lesson_9.pdb
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\obj\Debug\net6.0\Lesson_9.genruntimeconfig.cache
+C:\Program Files\Грищенко Ілля ПВ321\2 semester\C#\Lesson_9\obj\Debug\net6.0\ref\Lesson_9.dll

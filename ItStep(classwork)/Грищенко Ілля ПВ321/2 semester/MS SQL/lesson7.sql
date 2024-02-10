@@ -1,0 +1,22 @@
+--Найти группы, у которых нет куратора
+--select Groups.Name
+--from Groups
+--where not exists (
+--		select *
+--		from GroupsCurators, Curators, Groups
+--		where Curators.Id = GroupsCurators.CuratorId
+--		and GroupsCurators.GroupId = Groups.Id
+--		)
+
+--Есть ли лекции, для которых не назначено аудитории в расписании
+--select *
+--from Lectures
+--where not exists (
+--	select *
+--	from Schedules
+--	where Lectures.Id=Schedules.LectureId
+--	)
+
+--Есть ли группы, у которых хотя бы один студент имеет рейтинг больше 4
+--select *
+--from Groups
