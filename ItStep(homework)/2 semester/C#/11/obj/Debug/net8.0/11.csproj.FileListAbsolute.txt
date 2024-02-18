@@ -1,0 +1,15 @@
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\bin\Debug\net8.0\11.exe
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\bin\Debug\net8.0\11.deps.json
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\bin\Debug\net8.0\11.runtimeconfig.json
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\bin\Debug\net8.0\11.dll
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\bin\Debug\net8.0\11.pdb
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\obj\Debug\net8.0\11.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\obj\Debug\net8.0\11.AssemblyInfoInputs.cache
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\obj\Debug\net8.0\11.AssemblyInfo.cs
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\obj\Debug\net8.0\11.csproj.CoreCompileInputs.cache
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\obj\Debug\net8.0\11.sourcelink.json
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\obj\Debug\net8.0\11.dll
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\obj\Debug\net8.0\refint\11.dll
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\obj\Debug\net8.0\11.pdb
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\obj\Debug\net8.0\11.genruntimeconfig.cache
+C:\github\Studying\ItStep(homework)\2 semester\C#\11\obj\Debug\net8.0\ref\11.dll

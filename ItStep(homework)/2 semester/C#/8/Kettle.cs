@@ -24,7 +24,7 @@ namespace _8
             set
             {
                 if (value == string.Empty) throw new Exception("Maker: Invalid value");
-                foreach (var item in _maker)
+                foreach (var item in value)
                 {
                     if (!char.IsLetter(item)) throw new Exception("Maker: Invalid value");
                 }
