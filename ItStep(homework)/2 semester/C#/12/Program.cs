@@ -4,6 +4,34 @@ namespace _12
 {
     internal class Program
     {
+        static bool Check(int choice)
+        {
+            int[] variants = { 0, 1, 2, 3, 4, 5, 6 };
+            foreach (var item in variants)
+            {
+                if (choice == item) return true;
+            }
+            return false;
+        }
+        static void AddWord(ref Dictionary<string, List<string>> dict)
+        {
+            Write("English word: ");
+            string word = ReadLine();
+            if (word == string.Empty) throw new Exception();
+
+            List<string> translates = new();
+            while (true)
+            {
+                Write("french translation(0 - exit): ");
+                string translate = ReadLine();
+                if (translate == "0") break;
+                if (translate == string.Empty) throw new Exception();
+                translates.Add(translate);
+            }
+
+            dict.Add(word, translates);
+        }
+
         static void Main(string[] args)
         {
             try
@@ -50,30 +78,51 @@ namespace _12
 
                 //task 2
                 Dictionary<string, List<string>> dict = new();
-                Write("Enter count of translations: ");
+                Write("Enter count of words: ");
                 int size = int.Parse(ReadLine());
 
                 for (int i = 0; i < size; i++)
                 {
-                    Write("English word: ");
-                    string word = ReadLine();
-                    if (word == string.Empty) throw new Exception();
-
-                    List<string> translates = new();
-                    while (ReadLine() != "0")
-                    {
-                        Write("french translation(0 - exit): ");
-                        string translate = ReadLine();
-                        if (translate == string.Empty) throw new Exception();
-                        translates.Add(translate);
-                    }
-
-                    dict.Add(word, translates);
+                    AddWord(ref dict);
                 }
 
                 foreach (var item in dict)
                 {
-                    WriteLine(item);
+                    Write($"{item.Key}: ");
+                    foreach (var translation in item.Value)
+                    {
+                        Write($"{translation} ");
+                    }
+                    WriteLine();
+                }
+
+                int choice = -1;
+                while (choice != 0)
+                {
+                    Write("1 - Add new word and translations\n2 - Remove word\n3 - Remove translations\n4 - Change word\n5 - Change translation\n6 - Search translations\n0 - Exit\n: ");
+                    if (!int.TryParse(ReadLine(), out choice))
+                    {
+                        throw new Exception();
+                    }
+                    if (!Check(choice)) throw new Exception();
+
+                    switch (choice)
+                    {
+                        case 1:
+                            AddWord(ref dict);
+                            break;
+                        case 2:
+                            Write("Enter word: ");
+                            string key = ReadLine() ?? "";
+                            dict.Remove()
+                            break;
+                        case 3:
+                            Write("Enter word: ");
+                            string key = ReadLine() ?? "";
+                            if (!dict.Remove(key)) throw new Exception();
+                            WriteLine("Key successfully removed");
+                            break;
+                    }
                 }
             }
             catch (Exception e)
