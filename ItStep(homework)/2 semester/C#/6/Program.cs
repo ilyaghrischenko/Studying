@@ -10,8 +10,10 @@ namespace _6
             //task 1
             try
             {
-                RGB rgb = new(33, 12, 76);
+                RGB rgb = new RGB(33, 12, 76);
                 rgb.ToHex();
+                rgb.ToHSL();
+                rgb.ToCMYK();
             }
             catch (Exception ex)
             {

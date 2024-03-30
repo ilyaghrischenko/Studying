@@ -9,64 +9,22 @@ namespace _12
 {
     public class Book
     {
-        public enum BookGenre
-        {
-            Visions,
-            ShortStory,
-            Ode,
-            Opus,
-            Essay,
-            Poem,
-            Tale,
-            Play
-        }
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public string Genre { get; set; }
+        public int Year { get; set; }
 
-        public string Name { get; set; } = "NoName";
-        public string Pib { get; set; } = "NoPib";
-        public BookGenre Genre { get; set; } = BookGenre.Tale;
-        public int Year { get; set; } = 2024;
-
-        public Book() { }
-        public Book(string name, string pib, BookGenre genre, int year)
+        public Book(string title, string author, string genre, int year)
         {
-            Name = name;
-            Pib = pib;
+            Title = title;
+            Author = author;
             Genre = genre;
             Year = year;
         }
 
-        public void Input()
-        {
-            Write("Name: ");
-            Name = ReadLine();
-
-            Write("Pib: ");
-            Pib = ReadLine();
-
-            Write("Genre: ");
-            Genre = (BookGenre)Enum.Parse(typeof(BookGenre), ReadLine());
-
-            Write("Year: ");
-            Year = int.Parse(ReadLine());
-        }
-        public void Show()
-        {
-            WriteLine(this);
-        }
-
         public override string ToString()
         {
-            return $"Name: {Name} || Pib: {Pib} || Genre: {Genre} || Year: {Year}";
-        }
-        public override bool Equals(object? obj)
-        {
-            if (obj == null || obj is not Book) return false;
-            var other = obj as Book;
-            return ToString() == other.ToString();
-        }
-        public override int GetHashCode()
-        {
-            return ToString().GetHashCode();
+            return $"Title: {Title}, Author: {Author}, Genre: {Genre}, Year: {Year}";
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\github\\Studying\\ItStep(classwork)\\Грищенко Ілля ПВ321\\2 semester\\C#\\6\\6.csproj": {}
+    "C:\\github\\Studying\\ItStep(homework)\\2 semester\\C#\\6\\6.csproj": {}
   },
   "projects": {
-    "C:\\github\\Studying\\ItStep(classwork)\\Грищенко Ілля ПВ321\\2 semester\\C#\\6\\6.csproj": {
+    "C:\\github\\Studying\\ItStep(homework)\\2 semester\\C#\\6\\6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\Studying\\ItStep(classwork)\\Грищенко Ілля ПВ321\\2 semester\\C#\\6\\6.csproj",
+        "projectUniqueName": "C:\\github\\Studying\\ItStep(homework)\\2 semester\\C#\\6\\6.csproj",
         "projectName": "6",
-        "projectPath": "C:\\github\\Studying\\ItStep(classwork)\\Грищенко Ілля ПВ321\\2 semester\\C#\\6\\6.csproj",
+        "projectPath": "C:\\github\\Studying\\ItStep(homework)\\2 semester\\C#\\6\\6.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\Studying\\ItStep(classwork)\\Грищенко Ілля ПВ321\\2 semester\\C#\\6\\obj\\",
+        "outputPath": "C:\\github\\Studying\\ItStep(homework)\\2 semester\\C#\\6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

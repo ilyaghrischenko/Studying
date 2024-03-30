@@ -1,0 +1,15 @@
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\bin\Debug\net8.0\Lesson_1.exe
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\bin\Debug\net8.0\Lesson_1.deps.json
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\bin\Debug\net8.0\Lesson_1.runtimeconfig.json
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\bin\Debug\net8.0\Lesson_1.dll
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\bin\Debug\net8.0\Lesson_1.pdb
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\obj\Debug\net8.0\Lesson_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\obj\Debug\net8.0\Lesson_1.AssemblyInfoInputs.cache
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\obj\Debug\net8.0\Lesson_1.AssemblyInfo.cs
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\obj\Debug\net8.0\Lesson_1.csproj.CoreCompileInputs.cache
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\obj\Debug\net8.0\Lesson_1.sourcelink.json
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\obj\Debug\net8.0\Lesson_1.dll
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\obj\Debug\net8.0\refint\Lesson_1.dll
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\obj\Debug\net8.0\Lesson_1.pdb
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\obj\Debug\net8.0\Lesson_1.genruntimeconfig.cache
+C:\github\Studying\ItStep(classwork)\Грищенко Ілля ПВ321\2 semester\System Programming(C#)\Lesson_1\obj\Debug\net8.0\ref\Lesson_1.dll

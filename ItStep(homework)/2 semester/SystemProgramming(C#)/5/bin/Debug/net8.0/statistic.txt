@@ -1,0 +1,2 @@
+Interrogatives: 1
+Exclamatory: 1

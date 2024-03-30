@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\System Programming(C#)\\Lesson_8\\Library\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA89743-E8BF-4929-A5BB-5F0B69C87E6C}|Library.csproj|c:\\github\\studying\\itstep(classwork)\\\u0433\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0456\u043B\u043B\u044F \u043F\u0432321\\2 semester\\system programming(c#)\\lesson_8\\library\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA89743-E8BF-4929-A5BB-5F0B69C87E6C}|Library.csproj|solutionrelative:class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA89743-E8BF-4929-A5BB-5F0B69C87E6C}|Library.csproj|c:\\github\\studying\\itstep(classwork)\\\u0433\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0456\u043B\u043B\u044F \u043F\u0432321\\2 semester\\system programming(c#)\\lesson_8\\library\\drib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA89743-E8BF-4929-A5BB-5F0B69C87E6C}|Library.csproj|solutionrelative:drib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA89743-E8BF-4929-A5BB-5F0B69C87E6C}|Library.csproj|c:\\github\\studying\\itstep(classwork)\\\u0433\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0456\u043B\u043B\u044F \u043F\u0432321\\2 semester\\system programming(c#)\\lesson_8\\library\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA89743-E8BF-4929-A5BB-5F0B69C87E6C}|Library.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA89743-E8BF-4929-A5BB-5F0B69C87E6C}|Library.csproj|c:\\github\\studying\\itstep(classwork)\\\u0433\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0456\u043B\u043B\u044F \u043F\u0432321\\2 semester\\system programming(c#)\\lesson_8\\library\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA89743-E8BF-4929-A5BB-5F0B69C87E6C}|Library.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Drib.cs",
+              "DocumentMoniker": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\System Programming(C#)\\Lesson_8\\Library\\Drib.cs",
+              "RelativeDocumentMoniker": "Drib.cs",
+              "ToolTip": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\System Programming(C#)\\Lesson_8\\Library\\Drib.cs",
+              "RelativeToolTip": "Drib.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:16:51.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\System Programming(C#)\\Lesson_8\\Library\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\System Programming(C#)\\Lesson_8\\Library\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T16:55:44.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class2.cs",
+              "DocumentMoniker": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\System Programming(C#)\\Lesson_8\\Library\\Class2.cs",
+              "RelativeDocumentMoniker": "Class2.cs",
+              "ToolTip": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\System Programming(C#)\\Lesson_8\\Library\\Class2.cs",
+              "RelativeToolTip": "Class2.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T16:45:10.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\System Programming(C#)\\Lesson_8\\Library\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\System Programming(C#)\\Lesson_8\\Library\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T16:39:54.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

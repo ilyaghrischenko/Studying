@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\C#\\Lesson_19\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05D9C0AC-C2DA-4252-BB89-81EFEA28A5AD}|Lesson_19.csproj|c:\\github\\studying\\itstep(classwork)\\\u0433\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0456\u043B\u043B\u044F \u043F\u0432321\\2 semester\\c#\\lesson_19\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05D9C0AC-C2DA-4252-BB89-81EFEA28A5AD}|Lesson_19.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\C#\\Lesson_19\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\C#\\Lesson_19\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T15:06:38.584Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

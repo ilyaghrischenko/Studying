@@ -1,122 +1,67 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Console;
+﻿using static System.Console;
 
-namespace _6
+public struct RGB
 {
-    public struct RGB
+    private byte _red;
+    private byte _green;
+    private byte _blue;
+
+    public RGB(byte red, byte green, byte blue)
     {
-        private byte _red;
-        private byte _green;
-        private byte _blue;
-
-        public RGB()
+        if ((red < 0 || red > 255) || (green < 0 || green > 255) || (blue < 0 || blue > 255))
         {
-            _red = 10;
-            _green = 10;
-            _blue = 10;
-        }
-        public RGB(byte red, byte green, byte blue)
-        {
-            if ((red < 1 || red > 99) || (green < 1 || green > 99) || (blue < 1 || blue > 99))
-            {
-                throw new Exception("Constructor: Invalid arguments");
-            }
-            int kilk_num = (red.ToString() + green.ToString() + blue.ToString()).Length;
-            if (kilk_num != 3 && kilk_num != 6) throw new Exception("Constructor: Invalid arguments");
-
-            _red = red;
-            _green = green;
-            _blue = blue;
+            throw new ArgumentOutOfRangeException("Invalid RGB values");
         }
 
-        public byte Red
+        _red = red;
+        _green = green;
+        _blue = blue;
+    }
+
+    public void ToHex()
+    {
+        string hex = $"#{_red:X2}{_green:X2}{_blue:X2}";
+        WriteLine($"Hex: {hex}");
+    }
+    public void ToHSL()
+    {
+        double r = _red / 255.0;
+        double g = _green / 255.0;
+        double b = _blue / 255.0;
+
+        double cmax = Math.Max(r, Math.Max(g, b));
+        double cmin = Math.Min(r, Math.Min(g, b));
+        double delta = cmax - cmin;
+
+        double hue = 0;
+        double saturation = 0;
+        double lightness = (cmax + cmin) / 2.0;
+
+        if (delta != 0)
         {
-            get { return _red; }
-            set
-            {
-                if (value < 1 || value > 99) throw new Exception("Red: Invalid value");
-                _red = value;
-            }
-        }
-        public byte Green
-        {
-            get { return _green; }
-            set
-            {
-                if (value < 1 || value > 99) throw new Exception("Green: Invalid value");
-                _green = value;
-            }
-        }
-        public byte Blue
-        {
-            get { return _blue; }
-            set
-            {
-                if (value < 1 || value > 99) throw new Exception("Blue: Invalid value");
-                _blue = value;
-            }
+            saturation = delta / (1 - Math.Abs(2 * lightness - 1));
+
+            if (cmax == r)
+                hue = 60 * (((g - b) / delta) % 6);
+            else if (cmax == g)
+                hue = 60 * (((b - r) / delta) + 2);
+            else
+                hue = 60 * (((r - g) / delta) + 4);
         }
 
-        public void Show()
-        {
-            WriteLine($"RGB: ({_red},{_green},{_blue})");
-        }
-        public void Input()
-        {
-            Write("Red: ");
-            if (!byte.TryParse(ReadLine(), out byte red))
-            {
-                throw new Exception("Input(): Invalid value for red");
-            }
-            Red = red;
+        Console.WriteLine($"HSL: ({hue}, {saturation}, {lightness})");
+    }
+    public void ToCMYK()
+    {
+        double r = _red / 255.0;
+        double g = _green / 255.0;
+        double b = _blue / 255.0;
 
-            Write("Green: ");
-            if (!byte.TryParse(ReadLine(), out byte green))
-            {
-                throw new Exception("Input(): Invalid value for green");
-            }
-            Green = green;
+        double k = 1 - Math.Max(r, Math.Max(g, b));
+        double c = (1 - r - k) / (1 - k);
+        double m = (1 - g - k) / (1 - k);
+        double y = (1 - b - k) / (1 - k);
 
-            Write("Blue: ");
-            if (!byte.TryParse(ReadLine(), out byte blue))
-            {
-                throw new Exception("Input(): Invalid value for blue");
-            }
-            Blue = blue;
-
-            if ((red < 1 || red > 99) || (green < 1 || green > 99) || (blue < 1 || blue > 99))
-            {
-                throw new Exception("Constructor: Invalid arguments");
-            }
-            int kilk_num = (red.ToString() + green.ToString() + blue.ToString()).Length;
-            if (kilk_num != 3 && kilk_num != 6) throw new Exception("Input(): Invalid arguments");
-        }
-
-        public override string ToString()
-        {
-            return $"({Red},{Green},{Blue})";
-        }
-        public override bool Equals(object? obj)
-        {
-            if (obj == null) return false;
-            if (obj.GetType() != GetType()) return false;
-
-            var other = (RGB)obj;
-            return ToString() == other.ToString();
-        }
-        public override int GetHashCode()
-        {
-            return ToString().GetHashCode();
-        }
-
-        public void ToHex()
-        {
-            WriteLine($"Hex: ({Red:X2},{Green:X2},{Blue:X2})");
-        }
+        Console.WriteLine($"CMYK: ({c}, {m}, {y}, {k})");
     }
 }

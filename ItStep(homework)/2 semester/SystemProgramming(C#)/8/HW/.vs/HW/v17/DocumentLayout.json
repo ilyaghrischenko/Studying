@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\github\\Studying\\ItStep(homework)\\2 semester\\SystemProgramming(C#)\\8\\HW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{851AD6BF-E053-4110-BBB3-B1BDF100AAA6}|HW.csproj|c:\\github\\studying\\itstep(homework)\\2 semester\\systemprogramming(c#)\\8\\hw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851AD6BF-E053-4110-BBB3-B1BDF100AAA6}|HW.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\github\\Studying\\ItStep(homework)\\2 semester\\SystemProgramming(C#)\\8\\HW\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\github\\Studying\\ItStep(homework)\\2 semester\\SystemProgramming(C#)\\8\\HW\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T18:16:47.334Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
