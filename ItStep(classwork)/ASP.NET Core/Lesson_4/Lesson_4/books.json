@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "1",
+    "AuthorPIB": "1",
+    "Style": "1",
+    "PublishingYear": 2024,
+    "Price": 100
+  },
+  {
+    "Name": "2",
+    "AuthorPIB": "2",
+    "Style": "2",
+    "PublishingYear": 2023,
+    "Price": 200
+  }
+]

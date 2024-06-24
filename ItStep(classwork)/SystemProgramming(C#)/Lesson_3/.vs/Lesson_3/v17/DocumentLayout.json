@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\System Programming(C#)\\Lesson_3\\",
+  "WorkspaceRootPath": "C:\\github\\Studying\\ItStep(classwork)\\SystemProgramming(C#)\\Lesson_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B7C35DE-2E1F-486C-AC34-0B1DE078A3DB}|Lesson_3.csproj|c:\\github\\studying\\itstep(classwork)\\\u0433\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0456\u043B\u043B\u044F \u043F\u0432321\\2 semester\\system programming(c#)\\lesson_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B7C35DE-2E1F-486C-AC34-0B1DE078A3DB}|Lesson_3.csproj|c:\\github\\studying\\itstep(classwork)\\systemprogramming(c#)\\lesson_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B7C35DE-2E1F-486C-AC34-0B1DE078A3DB}|Lesson_3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\System Programming(C#)\\Lesson_3\\Program.cs",
+              "DocumentMoniker": "C:\\github\\Studying\\ItStep(classwork)\\SystemProgramming(C#)\\Lesson_3\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\github\\Studying\\ItStep(classwork)\\\u0413\u0440\u0438\u0449\u0435\u043D\u043A\u043E \u0406\u043B\u043B\u044F \u041F\u0412321\\2 semester\\System Programming(C#)\\Lesson_3\\Program.cs",
+              "ToolTip": "C:\\github\\Studying\\ItStep(classwork)\\SystemProgramming(C#)\\Lesson_3\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwBEAAAAUAAAA",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAQwBEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T16:02:31.326Z",
               "EditorCaption": ""

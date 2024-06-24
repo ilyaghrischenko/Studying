@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\github\\Studying\\ItStep(homework)\\DataManagment(EF Core, Dapper)\\Lesson_8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D6DE18-EB67-41F5-8D70-0A3A0ACAFBEA}|Lesson_8.csproj|c:\\github\\studying\\itstep(homework)\\datamanagment(ef core, dapper)\\lesson_8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D6DE18-EB67-41F5-8D70-0A3A0ACAFBEA}|Lesson_8.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D6DE18-EB67-41F5-8D70-0A3A0ACAFBEA}|Lesson_8.csproj|c:\\github\\studying\\itstep(homework)\\datamanagment(ef core, dapper)\\lesson_8\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D6DE18-EB67-41F5-8D70-0A3A0ACAFBEA}|Lesson_8.csproj|solutionrelative:models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 106,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\github\\Studying\\ItStep(homework)\\DataManagment(EF Core, Dapper)\\Lesson_8\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "Models\\Country.cs",
+              "ToolTip": "C:\\github\\Studying\\ItStep(homework)\\DataManagment(EF Core, Dapper)\\Lesson_8\\Models\\Country.cs",
+              "RelativeToolTip": "Models\\Country.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T16:34:25.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\github\\Studying\\ItStep(homework)\\DataManagment(EF Core, Dapper)\\Lesson_8\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\github\\Studying\\ItStep(homework)\\DataManagment(EF Core, Dapper)\\Lesson_8\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:59:14.722Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

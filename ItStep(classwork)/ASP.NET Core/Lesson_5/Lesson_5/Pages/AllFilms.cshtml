@@ -1,0 +1,24 @@
+@page
+@model Lesson_5.Pages.AllFilms
+
+@{
+    ViewData["Title"] = "All films";
+}
+
+<div class="card text-center text-primary">
+    <h1 class="text-primary">@Model.CinemaName</h1>
+    @if (Model.Films == null)
+    {
+        <p>No films</p>
+    }
+    else
+    {
+        <ol class="list-group list-group-item">
+            @foreach (var item in Model.Films)
+            {
+                <li>@item</li>
+                <br/>
+            }
+        </ol>
+    }
+</div>

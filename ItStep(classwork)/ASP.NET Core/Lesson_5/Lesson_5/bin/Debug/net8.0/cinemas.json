@@ -1,0 +1,102 @@
+[
+  {
+    "Name": "Cinema City",
+    "City": "New York",
+    "Films": [
+      {
+        "Name": "Inception",
+        "Director": "Christopher Nolan",
+        "Style": "Science Fiction",
+        "ShortDescription": "A thief who steals corporate secrets through use of dream-sharing technology.",
+        "Sessions": [
+          {
+            "TicketsCount": 100,
+            "Film": null
+          },
+          {
+            "TicketsCount": 200,
+            "Film": null
+          },
+          {
+            "TicketsCount": 150,
+            "Film": null
+          }
+        ]
+      },
+      {
+        "Name": "The Godfather",
+        "Director": "Francis Ford Coppola",
+        "Style": "Crime",
+        "ShortDescription": "The aging patriarch of an organized crime dynasty transfers control to his reluctant son.",
+        "Sessions": [
+          {
+            "TicketsCount": 120,
+            "Film": null
+          },
+          {
+            "TicketsCount": 180,
+            "Film": null
+          },
+          {
+            "TicketsCount": 160,
+            "Film": null
+          }
+        ]
+      },
+      {
+        "Name": "Pulp Fiction",
+        "Director": "Quentin Tarantino",
+        "Style": "Crime",
+        "ShortDescription": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine.",
+        "Sessions": [
+          {
+            "TicketsCount": 140,
+            "Film": null
+          },
+          {
+            "TicketsCount": 130,
+            "Film": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Cinema Deluxe",
+    "City": "Los Angeles",
+    "Films": [
+      {
+        "Name": "La La Land",
+        "Director": "Damien Chazelle",
+        "Style": "Romance",
+        "ShortDescription": "A jazz pianist falls for an aspiring actress in Los Angeles.",
+        "Sessions": [
+          {
+            "TicketsCount": 90,
+            "Film": null
+          },
+          {
+            "TicketsCount": 95,
+            "Film": null
+          }
+        ]
+      },
+      {
+        "Name": "Interstellar",
+        "Director": "Christopher Nolan",
+        "Style": "Science Fiction",
+        "ShortDescription": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "Sessions": [
+          {
+            "TicketsCount": 200,
+            "Film": null
+          },
+          {
+            "TicketsCount": 220,
+            "Film": null
+          }
+        ]
+      }
+    ]
+  }
+]

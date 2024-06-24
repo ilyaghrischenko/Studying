@@ -1,0 +1,15 @@
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\bin\Debug\net8.0\TcpClient.exe
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\bin\Debug\net8.0\TcpClient.deps.json
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\bin\Debug\net8.0\TcpClient.runtimeconfig.json
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\bin\Debug\net8.0\TcpClient.dll
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\bin\Debug\net8.0\TcpClient.pdb
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\obj\Debug\net8.0\TcpClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\obj\Debug\net8.0\TcpClient.AssemblyInfoInputs.cache
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\obj\Debug\net8.0\TcpClient.AssemblyInfo.cs
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\obj\Debug\net8.0\TcpClient.csproj.CoreCompileInputs.cache
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\obj\Debug\net8.0\TcpClient.sourcelink.json
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\obj\Debug\net8.0\TcpClient.dll
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\obj\Debug\net8.0\refint\TcpClient.dll
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\obj\Debug\net8.0\TcpClient.pdb
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\obj\Debug\net8.0\TcpClient.genruntimeconfig.cache
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpClient\obj\Debug\net8.0\ref\TcpClient.dll

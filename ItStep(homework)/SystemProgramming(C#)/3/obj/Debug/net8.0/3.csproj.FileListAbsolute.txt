@@ -1,0 +1,15 @@
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\bin\Debug\net8.0\3.exe
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\bin\Debug\net8.0\3.deps.json
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\bin\Debug\net8.0\3.runtimeconfig.json
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\bin\Debug\net8.0\3.dll
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\bin\Debug\net8.0\3.pdb
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\obj\Debug\net8.0\3.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\obj\Debug\net8.0\3.AssemblyInfoInputs.cache
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\obj\Debug\net8.0\3.AssemblyInfo.cs
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\obj\Debug\net8.0\3.csproj.CoreCompileInputs.cache
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\obj\Debug\net8.0\3.sourcelink.json
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\obj\Debug\net8.0\3.dll
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\obj\Debug\net8.0\refint\3.dll
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\obj\Debug\net8.0\3.pdb
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\obj\Debug\net8.0\3.genruntimeconfig.cache
+C:\github\Studying\ItStep(homework)\SystemProgramming(C#)\3\obj\Debug\net8.0\ref\3.dll

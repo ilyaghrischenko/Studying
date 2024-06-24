@@ -1,0 +1,23 @@
+@page
+@model Lesson_4.Pages.SearchBooks
+@{
+    ViewData["Title"] = "Search";
+}
+
+<div class="text-center">
+    <div>
+        <form method="post" asp-page-handler="/SearchBooks">
+            <label>Name: </label>
+            <input type="text"/>
+            <input type="submit" value="Send"/>
+        </form>
+        <form method="post" asp-page-handler="/SearchBooks">
+            <label>Publishing year: </label>
+            <input type="text"/>
+            <input type="submit" value="Send"/>
+        </form>
+    </div>
+    <div>
+        
+    </div>
+</div>

@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="card text-center">
+    <h1 class="display-4">Welcome</h1>
+    @if (Model.Cinemas == null)
+    {
+        <p>No cinemas</p>
+    }
+    else
+    {
+        <ol class="list-group list-group-item">
+            @foreach (var item in Model.Cinemas)
+            {
+                <li><a asp-page="AllFilms" asp-route-name="@item.Name" class="hover-custom">@item</a></li>
+                <br />
+            }
+        </ol>
+    }
+</div>

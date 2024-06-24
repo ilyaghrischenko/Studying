@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\github\\Studying\\ItStep(homework)\\2 semester\\SystemProgramming(C#)\\3\\",
+  "WorkspaceRootPath": "C:\\github\\Studying\\ItStep(homework)\\SystemProgramming(C#)\\3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA829E5F-F115-47AC-8038-C2BEBE2E560E}|3.csproj|c:\\github\\studying\\itstep(homework)\\2 semester\\systemprogramming(c#)\\3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA829E5F-F115-47AC-8038-C2BEBE2E560E}|3.csproj|c:\\github\\studying\\itstep(homework)\\systemprogramming(c#)\\3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA829E5F-F115-47AC-8038-C2BEBE2E560E}|3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA829E5F-F115-47AC-8038-C2BEBE2E560E}|3.csproj|c:\\github\\studying\\itstep(homework)\\systemprogramming(c#)\\3\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA829E5F-F115-47AC-8038-C2BEBE2E560E}|3.csproj|solutionrelative:bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA829E5F-F115-47AC-8038-C2BEBE2E560E}|3.csproj|c:\\github\\studying\\itstep(homework)\\systemprogramming(c#)\\3\\busstop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA829E5F-F115-47AC-8038-C2BEBE2E560E}|3.csproj|solutionrelative:busstop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA829E5F-F115-47AC-8038-C2BEBE2E560E}|3.csproj|c:\\github\\studying\\itstep(homework)\\systemprogramming(c#)\\3\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA829E5F-F115-47AC-8038-C2BEBE2E560E}|3.csproj|solutionrelative:passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +32,53 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\github\\Studying\\ItStep(homework)\\2 semester\\SystemProgramming(C#)\\3\\Program.cs",
+              "DocumentMoniker": "C:\\github\\Studying\\ItStep(homework)\\SystemProgramming(C#)\\3\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\github\\Studying\\ItStep(homework)\\2 semester\\SystemProgramming(C#)\\3\\Program.cs",
+              "ToolTip": "C:\\github\\Studying\\ItStep(homework)\\SystemProgramming(C#)\\3\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T11:20:25.58Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Passenger.cs",
+              "DocumentMoniker": "C:\\github\\Studying\\ItStep(homework)\\SystemProgramming(C#)\\3\\Passenger.cs",
+              "RelativeDocumentMoniker": "Passenger.cs",
+              "ToolTip": "C:\\github\\Studying\\ItStep(homework)\\SystemProgramming(C#)\\3\\Passenger.cs",
+              "RelativeToolTip": "Passenger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T16:48:10.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bus.cs",
+              "DocumentMoniker": "C:\\github\\Studying\\ItStep(homework)\\SystemProgramming(C#)\\3\\Bus.cs",
+              "RelativeDocumentMoniker": "Bus.cs",
+              "ToolTip": "C:\\github\\Studying\\ItStep(homework)\\SystemProgramming(C#)\\3\\Bus.cs",
+              "RelativeToolTip": "Bus.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwBgAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T16:45:47.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BusStop.cs",
+              "DocumentMoniker": "C:\\github\\Studying\\ItStep(homework)\\SystemProgramming(C#)\\3\\BusStop.cs",
+              "RelativeDocumentMoniker": "BusStop.cs",
+              "ToolTip": "C:\\github\\Studying\\ItStep(homework)\\SystemProgramming(C#)\\3\\BusStop.cs",
+              "RelativeToolTip": "BusStop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T16:43:49.671Z",
               "EditorCaption": ""
             }
           ]

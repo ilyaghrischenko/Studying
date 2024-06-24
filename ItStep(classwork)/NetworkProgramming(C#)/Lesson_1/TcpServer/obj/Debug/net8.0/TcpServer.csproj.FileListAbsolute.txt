@@ -1,0 +1,15 @@
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\bin\Debug\net8.0\TcpServer.exe
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\bin\Debug\net8.0\TcpServer.deps.json
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\bin\Debug\net8.0\TcpServer.runtimeconfig.json
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\bin\Debug\net8.0\TcpServer.dll
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\bin\Debug\net8.0\TcpServer.pdb
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\obj\Debug\net8.0\TcpServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\obj\Debug\net8.0\TcpServer.AssemblyInfoInputs.cache
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\obj\Debug\net8.0\TcpServer.AssemblyInfo.cs
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\obj\Debug\net8.0\TcpServer.csproj.CoreCompileInputs.cache
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\obj\Debug\net8.0\TcpServer.sourcelink.json
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\obj\Debug\net8.0\TcpServer.dll
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\obj\Debug\net8.0\refint\TcpServer.dll
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\obj\Debug\net8.0\TcpServer.pdb
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\obj\Debug\net8.0\TcpServer.genruntimeconfig.cache
+C:\github\Studying\ItStep(classwork)\NetworkProgramming(C#)\Lesson_1\TcpServer\obj\Debug\net8.0\ref\TcpServer.dll

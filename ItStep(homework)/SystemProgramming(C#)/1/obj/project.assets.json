@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\Studying\\ItStep(homework)\\2 semester\\SystemProgramming(C#)\\1\\1.csproj",
+      "projectUniqueName": "C:\\github\\Studying\\ItStep(homework)\\SystemProgramming(C#)\\1\\1.csproj",
       "projectName": "1",
-      "projectPath": "C:\\github\\Studying\\ItStep(homework)\\2 semester\\SystemProgramming(C#)\\1\\1.csproj",
+      "projectPath": "C:\\github\\Studying\\ItStep(homework)\\SystemProgramming(C#)\\1\\1.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\Studying\\ItStep(homework)\\2 semester\\SystemProgramming(C#)\\1\\obj\\",
+      "outputPath": "C:\\github\\Studying\\ItStep(homework)\\SystemProgramming(C#)\\1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
