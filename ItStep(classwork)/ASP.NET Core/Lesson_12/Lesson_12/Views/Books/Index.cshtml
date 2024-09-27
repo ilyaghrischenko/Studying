@@ -1,0 +1,87 @@
+﻿@model IEnumerable<WebMVC_2.Models.Book>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@section Scripts {
+    <script src="~/js/sortBooks.js"></script>
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-controller="Books" asp-action="Index">
+    <input type="text" name="searchstring"/>
+    <input type="submit"/>
+</form>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            <a href="#" data-sort="title" data-order="asc" class="sortable">
+                @Html.DisplayNameFor(model => model.Title)
+            </a>
+        </th>
+        <th>
+            <a href="#" data-sort="releaseDate" data-order="asc" class="sortable">
+                @Html.DisplayNameFor(model => model.ReleaseDate)
+            </a>
+        </th>
+        <th>
+            <a href="#" data-sort="publisher" data-order="asc" class="sortable">
+                @Html.DisplayNameFor(model => model.Publisher.Name)
+            </a>
+        </th>
+        <th>
+            <a href="#" data-sort="ageCategory" data-order="asc" class="sortable">
+                @Html.DisplayNameFor(model => model.AgeCategory)
+            </a>
+        </th>
+        <th>
+            <a href="#" data-sort="authorName" data-order="asc" class="sortable">
+                @Html.DisplayNameFor(model => model.Author.Name)
+            </a>
+        </th>
+        <th>
+            <a href="#" data-sort="copiesNumber" data-order="asc" class="sortable">
+                @Html.DisplayNameFor(model => model.CopiesNumber)
+            </a>
+        </th>
+    </tr>
+    </thead>
+    <tbody id="bookTableBody">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td data-field="title">
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td data-field="releaseDate">
+                @Html.DisplayFor(modelItem => item.ReleaseDate)
+            </td>
+            <td data-field="publisher">
+                @Html.DisplayFor(modelItem => item.Publisher)
+            </td>
+            <td data-field="ageCategory">
+                @Html.DisplayFor(modelItem => item.AgeCategory)
+            </td>
+            <td data-field="authorName">
+                @Html.DisplayFor(modelItem => item.Author.Name)
+            </td>
+            <td data-field="authorName">
+                @Html.DisplayFor(modelItem => item.CopiesNumber)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

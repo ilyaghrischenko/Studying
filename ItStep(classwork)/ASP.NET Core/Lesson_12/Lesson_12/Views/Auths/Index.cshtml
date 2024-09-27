@@ -1,0 +1,42 @@
+﻿@model IEnumerable<WebMVC_2.Models.Auth>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@section Scripts {
+    <script src="~/js/sortAuthors.js"></script>
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            <a href="#" data-sort="name" data-order="asc" class="sortable">
+                @Html.DisplayNameFor(model => model.Name)
+            </a>
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody id="authTableBody">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td data-field="name">
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

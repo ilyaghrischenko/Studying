@@ -1,0 +1,12 @@
+@model List<DB.Models.MyDate>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    @foreach (var item in Model)
+    {
+        <a asp-controller="TaskList" asp-action="Show" asp-route-id="@item.Id">@item</a>
+        <br/>
+    }
+</div>

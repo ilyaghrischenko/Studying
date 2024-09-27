@@ -1,18 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace Lesson_8.Pages;
-
-public class PrivacyModel : PageModel
+namespace WA_EF_4.Pages
 {
-    private readonly ILogger<PrivacyModel> _logger;
-
-    public PrivacyModel(ILogger<PrivacyModel> logger)
+    public class PrivacyModel : PageModel
     {
-        _logger = logger;
-    }
+        private readonly ILogger<PrivacyModel> _logger;
 
-    public void OnGet()
-    {
+        public PrivacyModel(ILogger<PrivacyModel> logger)
+        {
+            _logger = logger;
+        }
+
+        public void OnGet()
+        {
+        }
     }
 }

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b2497bd-b022-4187-894b-907997038a24" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Lesson_8.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Lesson_8.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Error.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Error.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Error.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Index.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Privacy.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Privacy.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Shared/_Layout.cshtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Shared/_Layout.cshtml.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Pages/_ViewStart.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Debug/net8.0/Lesson_8.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Debug/net8.0/Lesson_8.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Debug/net8.0/Lesson_8.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Debug/net8.0/Lesson_8.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Debug/net8.0/Lesson_8.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Debug/net8.0/Lesson_8.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Debug/net8.0/Lesson_8.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Debug/net8.0/Lesson_8.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Lesson_8.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Lesson_8.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Lesson_8.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Lesson_8.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Lesson_8.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/Lesson_8.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/js/site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/../ASP.NET Core/Lesson_8/Lesson_8/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2lL0wqT0qgtuZO1YqXZkkocdmLv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/github/Studying/ItStep(classwork)/JavaScript/Lesson_9",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.426" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b2497bd-b022-4187-894b-907997038a24" name="Changes" comment="" />
+      <created>1724944290952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724944290952</updated>
+      <workItem from="1724944291986" duration="91000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

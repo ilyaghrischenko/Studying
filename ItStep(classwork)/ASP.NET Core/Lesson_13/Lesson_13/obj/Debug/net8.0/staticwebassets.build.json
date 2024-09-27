@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "1RAhJBg+NTOFqZ5t45t5yCRf0ydzC3Ac+9qqdY04zYk=",
+  "Source": "Lesson_13",
+  "BasePath": "_content/Lesson_13",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lesson_13\\wwwroot",
+      "Source": "Lesson_13",
+      "ContentRoot": "C:\\github\\Studying\\ItStep(classwork)\\ASP.NET Core\\Lesson_13\\Lesson_13\\wwwroot\\",
+      "BasePath": "_content/Lesson_13",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\github\\Studying\\ItStep(classwork)\\ASP.NET Core\\Lesson_13\\Lesson_13\\wwwroot\\index.html",
+      "SourceId": "Lesson_13",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\github\\Studying\\ItStep(classwork)\\ASP.NET Core\\Lesson_13\\Lesson_13\\wwwroot\\",
+      "BasePath": "_content/Lesson_13",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

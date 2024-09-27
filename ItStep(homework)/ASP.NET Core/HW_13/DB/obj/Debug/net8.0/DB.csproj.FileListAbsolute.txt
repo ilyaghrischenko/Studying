@@ -1,0 +1,15 @@
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\bin\Debug\net8.0\DB.deps.json
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\bin\Debug\net8.0\DB.runtimeconfig.json
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\bin\Debug\net8.0\DB.dll
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\bin\Debug\net8.0\DB.pdb
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\obj\Debug\net8.0\DB.csproj.AssemblyReference.cache
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\obj\Debug\net8.0\DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\obj\Debug\net8.0\DB.AssemblyInfoInputs.cache
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\obj\Debug\net8.0\DB.AssemblyInfo.cs
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\obj\Debug\net8.0\DB.csproj.CoreCompileInputs.cache
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\obj\Debug\net8.0\DB.sourcelink.json
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\obj\Debug\net8.0\DB.dll
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\obj\Debug\net8.0\refint\DB.dll
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\obj\Debug\net8.0\DB.pdb
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\obj\Debug\net8.0\DB.genruntimeconfig.cache
+C:\github\Studying\ItStep(homework)\ASP.NET Core\HW_13\DB\obj\Debug\net8.0\ref\DB.dll

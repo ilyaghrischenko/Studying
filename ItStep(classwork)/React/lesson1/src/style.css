@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.test {
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+li {
+    background-color: #990000;
+    padding: 30px;
+}

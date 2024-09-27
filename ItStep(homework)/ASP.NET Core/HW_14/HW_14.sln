@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_14", "HW_14\HW_14.csproj", "{8BE6FC92-E805-407C-A01E-374CA6B5618F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB", "DB\DB.csproj", "{557619BD-3CC2-4F0D-9707-DC433C8C7829}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BE6FC92-E805-407C-A01E-374CA6B5618F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE6FC92-E805-407C-A01E-374CA6B5618F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE6FC92-E805-407C-A01E-374CA6B5618F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE6FC92-E805-407C-A01E-374CA6B5618F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{557619BD-3CC2-4F0D-9707-DC433C8C7829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557619BD-3CC2-4F0D-9707-DC433C8C7829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557619BD-3CC2-4F0D-9707-DC433C8C7829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557619BD-3CC2-4F0D-9707-DC433C8C7829}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

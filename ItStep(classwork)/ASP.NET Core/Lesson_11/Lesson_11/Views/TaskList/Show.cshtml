@@ -1,0 +1,12 @@
+@model List<DB.Models.MyTask>
+@{
+    Layout = null;
+}
+
+<div class="container">
+    @foreach(var item in Model)
+    {
+        <p>@item</p>
+        <br/>
+    }
+</div>
