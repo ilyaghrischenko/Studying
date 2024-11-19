@@ -1,0 +1,15 @@
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\bin\Debug\net8.0\HW_4.exe
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\bin\Debug\net8.0\HW_4.deps.json
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\bin\Debug\net8.0\HW_4.runtimeconfig.json
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\bin\Debug\net8.0\HW_4.dll
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\bin\Debug\net8.0\HW_4.pdb
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\obj\Debug\net8.0\HW_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\obj\Debug\net8.0\HW_4.AssemblyInfoInputs.cache
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\obj\Debug\net8.0\HW_4.AssemblyInfo.cs
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\obj\Debug\net8.0\HW_4.csproj.CoreCompileInputs.cache
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\obj\Debug\net8.0\HW_4.sourcelink.json
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\obj\Debug\net8.0\HW_4.dll
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\obj\Debug\net8.0\refint\HW_4.dll
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\obj\Debug\net8.0\HW_4.pdb
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\obj\Debug\net8.0\HW_4.genruntimeconfig.cache
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\HW_4\obj\Debug\net8.0\ref\HW_4.dll

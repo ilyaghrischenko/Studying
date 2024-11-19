@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="colorForm">
+        <input type="text" id="colorName" placeholder="Назва кольору" required>
+        <select id="colorType">
+            <option value="RGB">RGB</option>
+            <option value="RGBA">RGBA</option>
+            <option value="HEX">HEX</option>
+        </select>
+        <input type="text" id="colorCode" placeholder="Код кольору" required>
+        <button type="submit">Save</button>
+        <div id="nameError" style="color:red;"></div>
+        <div id="codeError" style="color:red;"></div>
+    </form>
+    <ul id="colorList"></ul>
+</body>
+</html>

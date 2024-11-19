@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="calculator" class="calculator">
+        <div class="calculator__icon">
+            <img src="pic/home.png" alt="">
+        </div>
+
+        <div class="calculator__select">
+            <p>Оберіть тип приміщення</p>
+            <select name="type_bulding" id="">
+                <option value="100">Приватний будинок</option>
+                <option value="300">Квартира</option>
+                <option value="500">Офісне приміщення</option>
+            </select>
+        </div>
+
+        <div class="calculator__add">
+            <p>Вкажіть назву та площу кімнат</p>
+            <div class="rooms">
+                <input type="text" class="rooms__title" placeholder="Назва приміщення">
+                <input type="text" class="rooms__square" placeholder="0.00">
+                <span class="rooms__btn rooms__btn--show rooms_add">+</span>
+                <span class="rooms__btn rooms__btn--hidden rooms_del">-</span>
+            </div>
+        </div>
+
+        <div class="calculator__total">
+            <span class="rooms__btn rooms__calculate">Розрахувати</span>
+            <p>Приблизна варість ремонту</p>
+            <p>
+                <span class="price">0.00 </span> uah
+            </p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

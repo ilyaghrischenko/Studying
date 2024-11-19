@@ -1,0 +1,20 @@
+In terminal:
+
+Django> cd djpr1
+Django\djpr1> python -m venv djpr1env
+Django\djpr1> djpr1env\Scripts\activate  (R)
+Django\djpr1> pip install django
+(djpr1env) PS Django\djpr1> django-admin startproject pr1      
+(djpr1env) PS Django\djpr1> cd pr1
+(djpr1env) PS Django\djpr1\pr1> python manage.py runserver
+
+python manage.py runserver 8080
+
+
+Створення нового додатку
+(djpr1env) PS Django\djpr1\pr1> python manage.py startapp HelloApp
+
+Додайте додаток до налаштувань проекту: 
+Відкрийте файл settings.py, який знаходиться в каталозі вашого проекту 
+(зазвичай myproject/settings.py) і додайте назву створеного додатку в список
+INSTALLED_APPS. 

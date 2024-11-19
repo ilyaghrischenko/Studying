@@ -1,0 +1,20 @@
+.city-info {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .landmark-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .landmark {
+    margin: 10px;
+  }
+  
+  .landmark img {
+    width: 200px;
+    height: 150px;
+  }
+  

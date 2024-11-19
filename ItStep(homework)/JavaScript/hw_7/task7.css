@@ -1,0 +1,9 @@
+#book-list li {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.selected {
+    background-color: orange;
+    color: white;
+}

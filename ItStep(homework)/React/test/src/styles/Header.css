@@ -1,0 +1,12 @@
+header {
+    height: 15%;
+}
+
+.list-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    background-color: gray;
+}

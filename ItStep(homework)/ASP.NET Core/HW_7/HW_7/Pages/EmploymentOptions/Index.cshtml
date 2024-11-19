@@ -1,0 +1,29 @@
+@page
+@model IndexModel
+@{
+ViewData["Title"] = "Варіанти працевлаштування";
+}
+
+<h1>Варіанти працевлаштування</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Претендент</th>
+        <th>Посада</th>
+        <th>Умови оплати</th>
+        <th>Віддалена робота</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var application in Model.JobApplications)
+    {
+    <tr>
+        <td>@application.JobSeeker.Name</td>
+        <td>@application.Job.Title</td>
+        <td>@application.Job.Salary грн</td>
+        <td>@(application.Job.IsRemote ? "Так" : "Ні")</td>
+    </tr>
+    }
+    </tbody>
+</table>

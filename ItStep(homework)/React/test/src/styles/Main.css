@@ -1,0 +1,23 @@
+main {
+    height: 70%;
+}
+
+.main-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-col {
+    width: 15%;
+    background-color: red;
+}
+
+.central-col {
+    width: 70%;
+    background-color: blue;
+}
+
+.right-col {
+    width: 15%;
+    background-color: green;
+}

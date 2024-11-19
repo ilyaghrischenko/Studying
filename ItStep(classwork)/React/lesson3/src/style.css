@@ -1,0 +1,15 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.test {
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+    background-color: red;
+}

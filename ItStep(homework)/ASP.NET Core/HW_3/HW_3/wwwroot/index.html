@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Сапер</title>
+    <style>
+        #gameBoard {
+            margin-top: 20px;
+        }
+
+        button {
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Гра Сапер</h1>
+    <button id="startGame">Почати гру</button>
+    <div id="gameBoard"></div>
+
+    <script>
+        const startGameButton = document.getElementById('startGame');
+        const gameBoardDiv = document.getElementById('gameBoard');
+
+        startGameButton.addEventListener('click', async () => {
+            const response = await fetch('/api/minesweeper/start', { method: 'POST' });
+            const board = await response.json();
+            displayBoard(board);
+        });
+
+        function displayBoard(board) {
+            gameBoardDiv.innerHTML = '';
+            for (let i = 0; i < board.length; i++) {
+                const row = document.createElement('div');
+                for (let j = 0; j < board[i].length; j++) {
+                    const cell = document.createElement('button');
+                    cell.innerText = ' ';
+                    cell.onclick = () => revealCell(i, j);
+                    row.appendChild(cell);
+                }
+                gameBoardDiv.appendChild(row);
+            }
+        }
+
+        async function revealCell(x, y) {
+            const response = await fetch(`/api/minesweeper/reveal?x=${x}&y=${y}`, { method: 'POST' });
+            const result = await response.json();
+            displayBoard(result);
+        }
+    </script>
+</body>
+</html>

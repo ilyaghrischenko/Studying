@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_7", "HW_7\HW_7.csproj", "{2A48314E-1D10-4B22-9F59-02075B678748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB", "DB\DB.csproj", "{692DAD2A-DDFA-4CCD-96B7-DC0BE700CA11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A48314E-1D10-4B22-9F59-02075B678748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A48314E-1D10-4B22-9F59-02075B678748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A48314E-1D10-4B22-9F59-02075B678748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A48314E-1D10-4B22-9F59-02075B678748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692DAD2A-DDFA-4CCD-96B7-DC0BE700CA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692DAD2A-DDFA-4CCD-96B7-DC0BE700CA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692DAD2A-DDFA-4CCD-96B7-DC0BE700CA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692DAD2A-DDFA-4CCD-96B7-DC0BE700CA11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

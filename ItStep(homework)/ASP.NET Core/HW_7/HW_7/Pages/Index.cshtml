@@ -1,0 +1,18 @@
+﻿@page
+@using DB
+@using DB.Models
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model HW_7.Pages.IndexModel
+@{
+    ViewData["Title"] = "Work.UA";
+}
+
+<h1>Welcome to Work.UA</h1>
+
+<p>Choose navigation option:</p>
+
+<ul>
+    <li><a asp-page="/Employers/Index">Employers</a></li>
+    <li><a asp-page="/JobSeekers/Index">JobSeekers</a></li>
+    <li><a asp-page="/JobOptions/Index">JobOptions</a></li>
+</ul>

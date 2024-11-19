@@ -1,0 +1,24 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Шукачі роботи";
+}
+
+<h1>Шукачі роботи</h1>
+
+<ul>
+    @foreach (var seeker in Model.JobSeekers)
+    {
+        <li>
+            <h3>@seeker.Name</h3>
+            <p>Контакт: @seeker.ContactInfo</p>
+            <h4>Можливі посади:</h4>
+            <ul>
+                @foreach (var application in seeker.JobApplications)
+                {
+                    <li>@application.Job.Title - @application.Job.Salary грн</li>
+                }
+            </ul>
+        </li>
+    }
+</ul>

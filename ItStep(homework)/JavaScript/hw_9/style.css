@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}

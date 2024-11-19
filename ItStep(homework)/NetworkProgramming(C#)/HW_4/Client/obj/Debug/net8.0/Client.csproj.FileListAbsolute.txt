@@ -1,0 +1,15 @@
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\bin\Debug\net8.0\Client.exe
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\bin\Debug\net8.0\Client.deps.json
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\bin\Debug\net8.0\Client.runtimeconfig.json
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\bin\Debug\net8.0\Client.dll
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\bin\Debug\net8.0\Client.pdb
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\obj\Debug\net8.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\obj\Debug\net8.0\Client.AssemblyInfoInputs.cache
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\obj\Debug\net8.0\Client.AssemblyInfo.cs
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\obj\Debug\net8.0\Client.csproj.CoreCompileInputs.cache
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\obj\Debug\net8.0\Client.sourcelink.json
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\obj\Debug\net8.0\Client.dll
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\obj\Debug\net8.0\refint\Client.dll
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\obj\Debug\net8.0\Client.pdb
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\obj\Debug\net8.0\Client.genruntimeconfig.cache
+C:\github\Studying\ItStep(homework)\NetworkProgramming(C#)\HW_4\Client\obj\Debug\net8.0\ref\Client.dll

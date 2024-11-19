@@ -1,0 +1,24 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Роботодавці";
+}
+
+<h1>Роботодавці</h1>
+
+<ul>
+    @foreach (var employer in Model.Employers)
+    {
+        <li>
+            <h3>@employer.Name</h3>
+            <p>Адреса: @employer.Address</p>
+            <h4>Вакансії:</h4>
+            <ul>
+                @foreach (var job in employer.Jobs)
+                {
+                    <li>@job.Title - @job.Salary grn - Remote work: @(job.IsRemote ? "Yes" : "No")</li>
+                }
+            </ul>
+        </li>
+    }
+</ul>

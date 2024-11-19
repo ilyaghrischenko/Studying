@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_7", "HW_7\HW_7.csproj", "{F6B0A1CA-7C76-4DD0-B693-CED29C73BBA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB", "DB\DB.csproj", "{CAC7CA6D-4D6B-42AA-A3C2-39F5F736FB8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6B0A1CA-7C76-4DD0-B693-CED29C73BBA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B0A1CA-7C76-4DD0-B693-CED29C73BBA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B0A1CA-7C76-4DD0-B693-CED29C73BBA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B0A1CA-7C76-4DD0-B693-CED29C73BBA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC7CA6D-4D6B-42AA-A3C2-39F5F736FB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC7CA6D-4D6B-42AA-A3C2-39F5F736FB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC7CA6D-4D6B-42AA-A3C2-39F5F736FB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC7CA6D-4D6B-42AA-A3C2-39F5F736FB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

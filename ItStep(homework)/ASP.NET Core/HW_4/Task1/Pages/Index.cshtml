@@ -1,0 +1,21 @@
+﻿@page
+@model AnimalsModel
+@{
+ViewData["Title"] = "Animal List";
+}
+
+<h1>Animal List</h1>
+
+<ul>
+    @foreach (var animal in Model.Animals)
+    {
+    <li>
+        <strong>@animal.Name:</strong> @animal.MakeSound()
+    </li>
+    }
+</ul>
+
+<form method="post">
+    <button type="submit" name="action" value="save">Save Animals</button>
+    <button type="submit" name="action" value="load">Load Animals</button>
+</form>
