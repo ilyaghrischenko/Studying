@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Список товарів</title>
+</head>
+<body>
+    <h1>Список товарів</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Назва</th>
+                <th>Ціна</th>
+                <th>Опис</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for product in products %}
+                <tr>
+                    <td>{{ product.name }}</td>
+                    <td>{{ product.price }}</td>
+                    <td>{{ product.description }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

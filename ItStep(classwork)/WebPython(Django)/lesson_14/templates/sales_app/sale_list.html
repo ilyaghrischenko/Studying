@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Список продажів</title>
+</head>
+<body>
+    <h1>Список продажів</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Продавець</th>
+                <th>Покупець</th>
+                <th>Товар</th>
+                <th>Дата продажу</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for sale in sales %}
+                <tr>
+                    <td>{{ sale.seller }}</td>
+                    <td>{{ sale.customer }}</td>
+                    <td>{{ sale.product }}</td>
+                    <td>{{ sale.sale_date }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

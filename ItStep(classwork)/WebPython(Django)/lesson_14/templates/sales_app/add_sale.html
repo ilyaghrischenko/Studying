@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Додавання продажу</title>
+</head>
+<body>
+    <h1>Додавання нового продажу</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Додати продаж</button>
+    </form>
+</body>
+</html>
